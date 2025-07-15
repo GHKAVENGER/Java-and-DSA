@@ -31,10 +31,34 @@ public class DAY_2_Recursion {
 
 
         //fibinaccho
-        System.out.println("enter the no =");
-        int a =scan.nextInt();
-        System.out.println(fib(a));
+        // System.out.println("enter the no =");
+        // int a =scan.nextInt();
+        // System.out.println(fib(a));
         
+
+        // //first occurance
+        // System.out.println("enter the values into array");
+        // System.out.println("how many values you want to enter");
+        // int c=scan.nextInt();
+        // int arr[]=new int[c];
+        // for(int i=0;i<arr.length;i++){
+        //     System.out.println("enter the value=");
+        //     arr[i]=scan.nextInt();
+        // }System.out.println("enter the element you want to search=");
+        // int d=scan.nextInt();
+        
+        // System.out.println("thr element you searced in ");
+        // System.err.println(lo(arr,d,arr.length-1));
+
+
+        //power of number
+        System.out.println("enter the number");
+        int a=scan.nextInt();
+        System.out.println("power of number");
+        int b=scan.nextInt();
+        System.out.println(exp(a, b));
+
+
         
     }
     public static void  deb(int a){
@@ -73,4 +97,30 @@ public class DAY_2_Recursion {
         int fib=fib1+fib2;
         return fib;
     }
+
+    public static int fo(int a[] , int b ,int c){
+        if(c==a.length){
+            return -1;}
+        if(b==a[c]){
+            return c;
+        }
+        return fo(a,b,c+1);
+    }
+    public static int lo(int a[] , int b ,int c){        
+        if(b==a[c]){
+            return c;
+        }
+        if(c==0){
+            return -1;}
+        return lo(a,b,c-1);
+        
+    }
+
+    public static int exp(int x ,int n){
+        int num;
+        if(n==1){return x;}
+        num=x*exp(x,n-1);
+        return num;
+    }
+    
 }
