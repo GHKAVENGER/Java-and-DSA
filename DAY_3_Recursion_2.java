@@ -14,14 +14,15 @@ public class DAY_3_Recursion_2 {
     //removing duplicates in string
     public static String remdup(String a,String c,int b){
         if(b==a.length()){
-            return "";
+            return c;
         }
         char d=a.charAt(b);
         boolean t=true;
         for(int i=b-1;i>=0;i--){
             if(a.charAt(i)==d){t=false;break;}
         }if(t==true){c+=d;}        
-        return c+remdup(a,c, b+1);
+        String u=remdup(a,c, b+1);
+        return u;
     }
     
 }
