@@ -1,5 +1,10 @@
 import java.util.*;
 public class DAY_6_BackTracking {
+
+    // sub sets
+    public static void subset(int arr[]){
+        
+    }
     public static void changearr(int arr[],int a,int b){
         if(a==arr.length){
             printar(arr);
