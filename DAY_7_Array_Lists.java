@@ -10,8 +10,6 @@ public class DAY_7_Array_Lists {
     //maximum stored water
     public static void water(ArrayList<Integer> list){        
         int water=Integer.MIN_VALUE;
-        int index1;
-        int index2;
 
         for(int i=0;i<list.size();i++){
             for(int j=i+1;j<list.size();j++){
@@ -21,12 +19,13 @@ public class DAY_7_Array_Lists {
                 int drop=length*breadth;
                 if(water<drop){
                     water=drop;
-                    index1=i;
-                    index2=j;
+                    
                 }
             }
         }
         System.out.print("highest water can bestored is"+water+"from index");
+        
+        
         
 
     }
