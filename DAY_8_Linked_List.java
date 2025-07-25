@@ -24,14 +24,29 @@ public class DAY_8_Linked_List {
         tail.next=newnode;
         tail=newnode;
     }
+
+    public static void print(){
+        if(head == null){
+            System.out.println("list is empty");
+            return;
+        }
+        Node temp=head;
+        while(temp!= null){
+            System.err.println(head.data);
+            temp=temp.next;
+        }System.out.println();
+    }
     public static void main(String[] args) {
         DAY_8_Linked_List ll=new DAY_8_Linked_List();
         ll.add(1);
+        ll.print();
         ll.add(2);
+        ll.print();
         ll.tail(3);
+        ll.print();
         ll.tail(4);
+        ll.print();
         ll.tail(5);
-        System.out.println(ll);
          
     }
     
