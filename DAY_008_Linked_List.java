@@ -1,4 +1,4 @@
-public class DAY_8_Linked_List {
+public class DAY_008_Linked_List {
     public static class Node {
         int data;
         Node next  ;
@@ -37,7 +37,7 @@ public class DAY_8_Linked_List {
         }System.out.println();
     }
     public static void main(String[] args) {
-        DAY_8_Linked_List ll=new DAY_8_Linked_List();
+        DAY_008_Linked_List ll=new DAY_008_Linked_List();
         ll.add(1);
         ll.print();
         ll.add(2);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_3_Recursion_2 {
+public class DAY_003_Recursion_2 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
 

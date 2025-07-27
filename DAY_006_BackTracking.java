@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_6_BackTracking {
+public class DAY_006_BackTracking {
 
     // sub sets
     public static void subset(int arr[]){

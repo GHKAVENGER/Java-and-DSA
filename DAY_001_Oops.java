@@ -1,4 +1,4 @@
-public class DAY1_1_Oops{
+public class DAY_001_Oops{
     public static void main(String[] args) {
 
 

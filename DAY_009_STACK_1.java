@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_9_STACK_1 {
+public class DAY_009_STACK_1 {
     
 
     //STACK USING ARRAYLIS

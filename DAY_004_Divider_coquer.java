@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_4_Divider_coquer {
+public class DAY_004_Divider_coquer {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("how many element do you want to enter");

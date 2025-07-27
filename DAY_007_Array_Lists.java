@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.*; 
-public class DAY_7_Array_Lists {
+public class DAY_007_Array_Lists {
     public static void swap(ArrayList<Integer> list , int a , int b){
         int temp=list.get(a);
         list.set(a,list.get(b));

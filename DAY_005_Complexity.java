@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_5_Complexity {
+public class DAY_005_Complexity {
     public static void main(String[] args) {
      Scanner scan=new Scanner(System.in);
     

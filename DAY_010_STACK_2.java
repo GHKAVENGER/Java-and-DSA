@@ -1,5 +1,5 @@
 import java.util.*;
-public class DAY_10_STACK_2 {
+public class DAY_010_STACK_2 {
     public static String validparanthesis(String arr){
         Stack<Character> s=new Stack<>();
         int y=1;
